@@ -6,9 +6,7 @@ import {Tabs, Tab} from "@nextui-org/react";
 export default function Navbar() {
   const router = useRouter();
   
-  console.log(router)
   const handleTabChange =(newTab)=>{
-    
     router.push(`/${newTab}`);
   }
   
